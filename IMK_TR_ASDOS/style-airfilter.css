@@ -1,0 +1,30 @@
+.banner {
+    background: url(bg-airfilter.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 22%;
+    padding-bottom: 22%;
+}
+.keterangan-airfilter {
+    position: absolute;
+    left: 10%;
+    top: 12%; 
+}
+.keterangan-airfilter img {
+    width: 90%;
+}
+.airfilter-honda {
+    position: absolute;
+    left: 10%;
+    top: 14%;
+}
+.airfilter-honda img {
+    width: 70%;
+}
+.back {
+    position: absolute;
+    left: 2%;
+    top: 12%;
+}
+.back img {
+    width: 70%;
+}

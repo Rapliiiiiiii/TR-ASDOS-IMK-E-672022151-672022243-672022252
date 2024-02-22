@@ -1,0 +1,26 @@
+.banner{
+    background: url(service-ringan.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 137%;
+    padding-bottom: 10%;
+}
+.back {
+    position: absolute;
+    left: 2%;
+    top: 12%;
+}
+.back img {
+    width: 70%;
+}
+.rutin {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 470px;
+    left: 250px;
+}
+.sekarang{
+    position: absolute;
+    left: 670px;
+    top: 2120px;
+}

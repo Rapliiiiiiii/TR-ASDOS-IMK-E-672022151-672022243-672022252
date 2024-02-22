@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulya Jaya</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-booking.css">
+</head>
+<body>
+    <nav>
+        <nav 
+        class="navbar navbar-expand-lg navbar-dark fixed-top"
+        style="background-color: #7f7f7f;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="landingpage.html"><img src="logokcl.png" alt="logokcl"class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="landingpage.html">HOME</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sparepart.html">SPAREPART</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">SERVICE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="booking.html">BOOKING</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit" >Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </nav>
+    <div class="container-fluid banner">
+      <div class="booking">
+        <h1>BOOKING</h1>
+    </div>
+    <div class="form-booking">
+      <h1>FORM BOOKING</h1>
+  </div>
+    <div class="lupa">
+      <form action="">
+        <label for="Nama">
+          Nama
+        </label><br>
+        <input type="text" 
+        id="Nama"
+        name="Nama"
+        placeholder="Nama Lengkap">
+      <br>
+      <label for="NoHandphone">
+        No Handphone
+      </label><br>
+      <input type="text" 
+      id="NoHandphone"
+      name="NoHandphone"
+      placeholder="08XXXXXXXXXX">
+      <br>
+      <label for="merkmotor">
+        Merk Motor
+      </label><br>
+      <select name="merkmotor" id="merkmotor">
+        <option value="serviceringan">HONDA</option>
+        <option value="serviceringan">YAMAHA</option>
+        <option value="serviceringan">KAWASAKI</option>
+        <option value="serviceringan">SUZUKI</option>
+        <option value="serviceringan">PIAGGIO</option>
+        <option value="serviceringan">LAINNYA</option>
+      </select>
+       <br>
+       <label for="tipemotor">
+        Tipe Motor
+      </label><br>
+      <input type="text" 
+      id="tipemotor"
+      name="tipemotor"
+      placeholder="Tipe Motor (Tahun)">
+      <br>
+      <label for="nomorpolisimotor">
+        Nomor Polisi Motor
+      </label><br>
+      <input type="text" 
+      id="nomorpolisimotor"
+      name="nomorpolisimotor"
+      placeholder="H XXXX XX">
+      <br>
+      <label for="keluhanmotor">
+        Keluhan Motor
+      </label><br>
+      <input type="text" 
+      id="keluhanmotor"
+      name="keluhanmotor"
+      placeholder="Detail Keluhan">
+      <br>
+      <label for="perbaikanmotor">
+        Perbaikan Motor
+      </label><br>
+      <select name="perbaikanmotor" id="perbaikanmotor">
+        <option value="serviceringan">Service Ringan</option>
+        <option value="serviceringan">Service Berat</option>
+        <option value="serviceringan">Service Tune-Up</option>
+        <option value="serviceringan">Service Injeksi</option>
+        <option value="serviceringan">Service Kaki-Kaki</option>
+        <option value="serviceringan">Service CVT</option>
+      </select> 
+
+        
+      </form>
+      
+    </div>
+    <button type="button" class="btn btn-primary kko" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      BOOKING SEKARANG
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">KODE BOKING</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Terimakasih telah mempercayai bengkel kami, untuk informasi lebih lanjut akan kami sampaikan melalui
+            Whatsapp kami.
+            <br> 
+            <br>
+            Berikut kode booking anda :
+            <br>
+            <img src="kode-booking.png" width="400">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">KEMBALI</button>
+            <button type="button" class="btn btn-primary">
+              <a class="nav-link" href="landingpage.html">LANJUTKAN</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    
+  
+<script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
